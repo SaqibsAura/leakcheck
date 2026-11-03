@@ -1,0 +1,14 @@
+{
+  "name": "leakcheck",
+  "version": "1.0.0",
+  "description": "Zero-dependency secret scanner. Run it before you push.",
+  "type": "module",
+  "bin": { "leakcheck": "src/cli.ts" },
+  "engines": { "node": ">=23.6" },
+  "scripts": {
+    "test": "node --test test/",
+    "scan": "node src/cli.ts ."
+  },
+  "license": "MIT",
+  "author": "Sheikh Mohammed Saqib"
+}
